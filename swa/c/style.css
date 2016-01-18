@@ -1778,10 +1778,12 @@ html[xmlns] .slides {
 .hero-slider.flexslider .flex-prev {
   left: -100px;
   padding-left: 60px;
+  z-index: 100;
 }
 
 .hero-slider.flexslider .flex-next {
   padding-left: 30px;
+  z-index: 100;
 }
 
 .hero-slider.flexslider:hover .flex-prev {
